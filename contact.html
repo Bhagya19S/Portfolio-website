@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Sasiru Bhagya</title>
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <img id="LOGO" src="SBS_logo.svg" alt="logo">
+      <button class="hamburger" id="menuBtn">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="Contact">
+    <div class="contact-header">
+      <h1>Let's Connect</h1>
+
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p>
+          I'm always interested in hearing about new projects and opportunities.
+          Whether you have a question or just want to say hi, I'll try my best
+          to get back to you!
+        </p>
+        <div class="info-items">
+          <div class="info-item">
+            <div class="info-item-text">
+              <small>Email</small>
+              <strong>sbagya472@gmail.com</strong>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-item-text">
+              <small>Phone</small>
+              <strong>+94 74 052 1511</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form-panel">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" placeholder="Sasiru Bhagya" autocomplete="off" />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input type="email" id="email" placeholder="sasiru@example.com" />
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" placeholder="Project Inquiry" />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Tell me about your project..."></textarea>
+        </div>
+
+        <button class="btn-send" id="sendBtn">
+          Send Message
+        </button>
+
+        <div class="toast" id="successToast">
+          ✅ Message sent! I'll get back to you soon.
+        </div>
+        <div class="toast" id="errorToast">
+          !!Please fill in all fields before sending.!!
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Sasiru Bhagya Sumathipala </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
